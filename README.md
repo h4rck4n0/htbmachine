@@ -1,4 +1,5 @@
 # htbmachine
+### by h4rck4n0
 
 
 [](https://github.com/h4rck4n0/htbmachine#htbmachine)
@@ -19,7 +20,7 @@ HTB-Search-Machine HELP:
 
 -o Elenca le macchine HTB per Sistema Operativo -o < Linux / Windows >   es.: ./htbmachine.sh -o Linux
 
--s Elenca le macchine HTB per skills -s < "Nome Skills" >    es: ./htbmachine.sh -s "Active Directory"     --> le virgolette sono da mettere
+-s Elenca le macchine HTB per skills -s < "Nome Skills" >    es: ./htbmachine.sh -s "Active Directory"     --> le virgolette sono neccessarie
 
 -h Help  ./htbmachine.sh -h     Visualizza l'Help dello script
 
@@ -28,6 +29,13 @@ i parametri -o -d si possono abbinare: -o < Linux / Windows > -d < Facile/Medio/
 
 Importante che al primo utilizzo eseguiamo:
 
-./htbmachine.sh -u
+./htbmachine.sh -u (serve anche per aggiornare)
 
 lo script crea un file .js che servirà allo script di fare tutte le ricerche che vogliamo.
+
+Periodicamente si consiglia di ripetere questo comando per aggiornare il programma, in modo di avere le nuove macchine HTB risolte da s4vitar.
+
+Questo script l'ho realizzato grazie al corso linux che ho seguito dall'accademia [Hacknow.it]https://www.hacknow.it di Roby7979
+
+
+
